@@ -48,3 +48,40 @@ O Mini Gestor é um ponto de venda (PDV) gratuito para pequenos negócios: lanch
 - **Movimentações**: entradas, saídas, vendas e devoluções de estoque.
 
 ## Instalação
+
+1. Baixe o `MiniGestor-Setup-<versão>.exe` na [última versão](https://github.com/carlosmorais-git/minigestor-releases/releases/latest).
+2. Abra o arquivo e siga os passos.
+3. Abra o Mini Gestor pelo atalho na área de trabalho. A primeira abertura pode levar um minuto ou mais.
+4. Crie o acesso do dono (usuário e senha). Os funcionários você cadastra depois, na tela Equipe.
+
+> **Quer só conhecer antes?** Na tela de entrada, clique em **Conhecer com dados de exemplo**. Abre uma loja de exemplo com 30 dias de vendas, separada dos seus dados.
+
+> **O Windows mostrou "O Windows protegeu o computador"?**
+> Isso acontece com aplicativos novos que ainda não têm assinatura digital. Clique em **Mais informações** e depois em **Executar assim mesmo**.
+
+### Requisitos
+
+- Windows 10 ou 11 (64 bits)
+- Internet só para baixar e receber atualizações. Para usar, não precisa
+- Impressora térmica é opcional
+
+## Atualizações
+
+O Mini Gestor se atualiza sozinho. Quando sai uma versão nova, ele baixa em segundo plano e mostra no topo da tela **"Nova versão pronta"**. Clique em **Atualizar agora**: o app fecha, instala e abre de novo. Pedidos em aberto continuam lá.
+
+Seus dados ficam salvos no computador. Atualizar, reinstalar ou desinstalar não apaga o banco da loja.
+
+As mudanças de cada versão estão na página de [releases](https://github.com/carlosmorais-git/minigestor-releases/releases).
+
+## Em breve
+
+- **Cardápio digital**: seus produtos, tamanhos e adicionais em um cardápio online para o cliente ver pelo celular.
+- **Painel de faturamento online**: acompanhe as vendas de qualquer lugar, em modo somente leitura.
+
+## Encontrou um problema?
+
+Abra uma [issue](https://github.com/carlosmorais-git/minigestor-releases/issues) contando o que aconteceu e, se puder, mande um print da tela.
+
+---
+
+<p align="center">Desenvolvido por <strong>Carlos Morais</strong></p>
