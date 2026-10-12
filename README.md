@@ -2,20 +2,20 @@
 
 <p align="center">
   <strong>PDV grátis para tirar sua loja do papel ainda hoje.</strong><br>
-  Frente de caixa, controle de estoque e de funcionários em um aplicativo para o seu computador. Funciona sem internet.
+  Frente de caixa, estoque, clientes, relatórios e equipe em um aplicativo para o seu computador. Funciona sem internet.
 </p>
 
 <p align="center">
-  <a href="https://github.com/SEU_USUARIO/SEU_REPO/releases/latest">
-    <img alt="Última versão" src="https://img.shields.io/github/v/release/SEU_USUARIO/SEU_REPO?label=vers%C3%A3o&color=1f56d6">
+  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases/latest">
+    <img alt="Última versão" src="https://img.shields.io/github/v/release/carlosmorais-git/minigestor-releases?label=vers%C3%A3o&color=1f56d6">
   </a>
-  <a href="https://github.com/SEU_USUARIO/SEU_REPO/releases">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/SEU_USUARIO/SEU_REPO/total?label=downloads&color=1d7a4c">
+  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/carlosmorais-git/minigestor-releases/total?label=downloads&color=1d7a4c">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/SEU_USUARIO/SEU_REPO/releases/latest/download/MiniGestor-Setup.exe">
+  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases/latest">
     <strong>⬇ Baixar o Mini Gestor para Windows</strong>
   </a>
 </p>
@@ -30,48 +30,21 @@ O Mini Gestor é um ponto de venda (PDV) gratuito para pequenos negócios: lanch
 
 | | |
 |---|---|
-| **Frente de caixa** | Monte o pedido, aplique tamanhos e adicionais e feche a venda. O estoque é atualizado na hora. |
-| **Controle de estoque** | Cada entrada, saída e ajuste fica registrado como uma movimentação, então o saldo sempre tem explicação. |
-| **Funcionários com auditoria** | Organize o fluxo da equipe no caixa e saiba quem fez cada venda, entrada ou ajuste. |
+| **Frente de caixa** | Vários pedidos abertos ao mesmo tempo, com tamanhos, adicionais e taxa de entrega. O pedido pode ser pago na hora ou ficar para **receber na entrega**. O estoque é atualizado no fechamento. |
+| **Impressão** | Comanda e relatório do dia na impressora térmica (58 ou 80 mm), direto do caixa. |
+| **Controle de estoque** | Entradas, saídas e vendas ficam registradas como movimentações, então o saldo sempre tem explicação. Produto no mínimo aparece em destaque. |
+| **Clientes** | Cadastro com endereço e telefone, ligado ao pedido de entrega. |
+| **Relatórios** | Faturamento por dia e por hora, mais vendidos, formas de pagamento e comparação com o período anterior. Imprima ou baixe a planilha (CSV). |
+| **Equipe e permissões** | Cada funcionário tem o próprio acesso (Caixa, Gerente). Cada venda registra quem vendeu, e cancelar uma venda paga pede a senha do gerente ou do dono. |
+| **Backup diário** | Uma cópia do banco por dia da semana, na pasta que você escolher: no computador, num pen drive ou numa pasta do Google Drive. |
 | **Funciona offline** | Os dados ficam no computador da loja. Se a internet cair, o caixa continua vendendo. |
 
 ### Como o estoque se organiza
 
-- **Categorias**: agrupam os produtos (lanches, bebidas, porções).
-- **Produtos**: o item do cardápio ou da prateleira.
-- **Tamanhos**: P, M, G, cada um com seu preço.
+- **Categorias**: agrupam os produtos (lanches, bebidas, porções) e viram as abas do caixa.
+- **Produtos**: o item do cardápio ou da prateleira, vendido por unidade, litro ou quilo.
+- **Tamanhos**: P, M, G, cada um com seu preço. Se precisar, com colunas de preço (o mesmo lanche de boi, frango ou lombo).
 - **Adicionais**: extras somados ao item (bacon, cheddar, granola).
-- **Movimentações**: entradas, saídas e ajustes de estoque.
+- **Movimentações**: entradas, saídas, vendas e devoluções de estoque.
 
 ## Instalação
-
-1. Baixe o instalador na [última versão](https://github.com/SEU_USUARIO/SEU_REPO/releases/latest).
-2. Abra o arquivo `MiniGestor-Setup.exe` e siga os passos.
-3. Abra o Mini Gestor pelo atalho na área de trabalho.
-
-> **O Windows mostrou "O Windows protegeu o computador"?**
-> Isso acontece com aplicativos novos que ainda não têm assinatura digital. Clique em **Mais informações** e depois em **Executar assim mesmo**.
-
-### Requisitos
-
-- Windows 10 ou 11 (64 bits)
-- Não precisa de internet para usar
-
-## Atualizações
-
-Para atualizar, baixe o instalador da [última versão](https://github.com/SEU_USUARIO/SEU_REPO/releases/latest) e instale por cima. Seus dados continuam salvos no computador.
-
-As mudanças de cada versão estão na página de [releases](https://github.com/SEU_USUARIO/SEU_REPO/releases).
-
-## Em breve
-
-- **Cardápio digital**: seus produtos, tamanhos e adicionais em um cardápio online para o cliente ver pelo celular.
-- **Painel de faturamento online**: acompanhe as vendas de qualquer lugar, em modo somente leitura.
-
-## Encontrou um problema?
-
-Abra uma [issue](https://github.com/SEU_USUARIO/SEU_REPO/issues) contando o que aconteceu e, se puder, mande um print da tela.
-
----
-
-<p align="center">Desenvolvido por <strong>Carlos Morais</strong></p>
